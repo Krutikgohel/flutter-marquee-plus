@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 /// A lightweight and customizable marquee (scrolling text) widget for Flutter.
 ///
 /// `MarqueePlus` automatically scrolls its text horizontally when:
@@ -94,8 +93,7 @@ class _MarqueePlusState extends State<MarqueePlus>
     final newTextWidth = textPainter.width;
 
     // Determine whether scrolling should occur
-    final shouldAnimate =
-        widget.alwaysScroll || newTextWidth > maxWidth;
+    final shouldAnimate = widget.alwaysScroll || newTextWidth > maxWidth;
 
     _textWidth = newTextWidth;
     _shouldAnimate = shouldAnimate;
@@ -160,7 +158,8 @@ class _MarqueePlusState extends State<MarqueePlus>
                   SizedBox(width: widget.blankSpace),
 
                   // Add extra repetition if the text is shorter than container width
-                  if (_textWidth + widget.blankSpace < constraints.maxWidth) ...[
+                  if (_textWidth + widget.blankSpace <
+                      constraints.maxWidth) ...[
                     Text(widget.text, style: widget.style),
                     SizedBox(width: widget.blankSpace),
                   ],

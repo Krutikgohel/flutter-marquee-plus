@@ -57,7 +57,6 @@ class _MarqueePlusDemoState extends State<MarqueePlusDemo> {
                 },
               ),
               const SizedBox(height: 20),
-
               const Text('1. Default behavior (Short Text — Static)'),
               const SizedBox(height: 10),
               Container(
@@ -71,7 +70,6 @@ class _MarqueePlusDemoState extends State<MarqueePlusDemo> {
                 ),
               ),
               const SizedBox(height: 30),
-              
               const Text('2. Default: alwaysScroll=false (Long Text - Scroll)'),
               const SizedBox(height: 10),
               Container(
@@ -79,15 +77,16 @@ class _MarqueePlusDemoState extends State<MarqueePlusDemo> {
                 height: 50,
                 alignment: Alignment.centerLeft,
                 child: MarqueePlus(
-                  text: 'This is a very long text that should scroll because it overflows the container width. ',
+                  text:
+                      'This is a very long text that should scroll because it overflows the container width. ',
                   alwaysScroll: false,
                   velocity: _velocity,
                   style: const TextStyle(fontSize: 20, color: Colors.red),
                 ),
               ),
               const SizedBox(height: 30),
-
-              const Text('3. Default: alwaysScroll=false (Short Text - Static)'),
+              const Text(
+                  '3. Default: alwaysScroll=false (Short Text - Static)'),
               const SizedBox(height: 10),
               Container(
                 color: Colors.grey[200],
@@ -101,7 +100,6 @@ class _MarqueePlusDemoState extends State<MarqueePlusDemo> {
                 ),
               ),
               const SizedBox(height: 30),
-
               const Text('4. Custom Curve (Curves.easeInOut)'),
               const SizedBox(height: 10),
               Container(
@@ -110,7 +108,8 @@ class _MarqueePlusDemoState extends State<MarqueePlusDemo> {
                 height: 50,
                 alignment: Alignment.centerLeft,
                 child: MarqueePlus(
-                  text: 'This text accelerates and decelerates due to the curve.',
+                  text:
+                      'This text accelerates and decelerates due to the curve.',
                   alwaysScroll: false,
                   velocity: _velocity,
                   curve: Curves.easeInOut,
