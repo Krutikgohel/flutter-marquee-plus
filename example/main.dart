@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_marquee_plus/marquee_plus.dart';
+import 'package:flutter_marquee_plus/flutter_marquee_plus.dart';
 
 void main() {
   runApp(const MyApp());
