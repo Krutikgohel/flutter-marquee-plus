@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2
+- Added demo GIF to showcase marquee behavior visually.
+- Updated README with embedded demo and improved usage instructions.
+- Minor updates to example app labels and comments.
+
 ## 1.0.1
 - Reformatted code and improved internal structure.
 
