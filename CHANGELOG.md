@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3
+- Replaced demo GIF with an updated version.
+- Updated README to reflect the new demo and minor documentation improvements.
+
 ## 1.0.2
 - Added demo GIF to showcase marquee behavior visually.
 - Updated README with embedded demo and improved usage instructions.
