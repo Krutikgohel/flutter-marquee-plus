@@ -29,6 +29,7 @@ class MarqueePlusDemo extends StatefulWidget {
 }
 
 class _MarqueePlusDemoState extends State<MarqueePlusDemo> {
+  /// Controls the scrolling speed of the marquee widgets.
   double _velocity = 50.0;
 
   @override
@@ -45,7 +46,10 @@ class _MarqueePlusDemoState extends State<MarqueePlusDemo> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
+              /// Shows the current velocity value.
               Text('Current Velocity: ${_velocity.toStringAsFixed(1)}'),
+
+              /// Slider to dynamically adjust marquee velocity.
               Slider(
                 value: _velocity,
                 min: 10.0,
@@ -56,7 +60,10 @@ class _MarqueePlusDemoState extends State<MarqueePlusDemo> {
                   });
                 },
               ),
+
               const SizedBox(height: 20),
+
+              /// Example 1: Short text that does not overflow → remains static.
               const Text('1. Default behavior (Short Text — Static)'),
               const SizedBox(height: 10),
               Container(
@@ -69,8 +76,11 @@ class _MarqueePlusDemoState extends State<MarqueePlusDemo> {
                   style: const TextStyle(fontSize: 20, color: Colors.blue),
                 ),
               ),
+
               const SizedBox(height: 30),
-              const Text('2. Default: alwaysScroll=false (Long Text - Scroll)'),
+
+              /// Example 2: Long text that overflows → scrolls automatically.
+              const Text('2. Default behavior (Long Text — Scroll)'),
               const SizedBox(height: 10),
               Container(
                 color: Colors.grey[200],
@@ -79,14 +89,15 @@ class _MarqueePlusDemoState extends State<MarqueePlusDemo> {
                 child: MarqueePlus(
                   text:
                       'This is a very long text that should scroll because it overflows the container width. ',
-                  alwaysScroll: false,
                   velocity: _velocity,
                   style: const TextStyle(fontSize: 20, color: Colors.red),
                 ),
               ),
+
               const SizedBox(height: 30),
-              const Text(
-                  '3. Default: alwaysScroll=false (Short Text - Static)'),
+
+              /// Example 3: Short text forced to scroll using alwaysScroll = true.
+              const Text('3. Forced scroll (Short Text — alwaysScroll = true)'),
               const SizedBox(height: 10),
               Container(
                 color: Colors.grey[200],
@@ -99,18 +110,19 @@ class _MarqueePlusDemoState extends State<MarqueePlusDemo> {
                   style: const TextStyle(fontSize: 20, color: Colors.green),
                 ),
               ),
+
               const SizedBox(height: 30),
+
+              /// Example 4: Applying a custom animation curve.
               const Text('4. Custom Curve (Curves.easeInOut)'),
               const SizedBox(height: 10),
               Container(
                 color: Colors.grey[200],
-                width: 50,
                 height: 50,
                 alignment: Alignment.centerLeft,
                 child: MarqueePlus(
                   text:
                       'This text accelerates and decelerates due to the curve.',
-                  alwaysScroll: false,
                   velocity: _velocity,
                   curve: Curves.easeInOut,
                   style: const TextStyle(fontSize: 20, color: Colors.orange),
