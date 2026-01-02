@@ -3,7 +3,7 @@
 A lightweight and customizable marquee (scrolling text) widget for Flutter.
 
 
-![Marquee demo](https://raw.githubusercontent.com/Krutikgohel/flutter-marquee-plus/main/assets/demo.gif)
+![Marquee demo](https://github.com/Krutikgohel/flutter-marquee-plus/blob/main/assets/demo.gif)
 
 ## Features
 - Scrolls only when text overflows
@@ -20,5 +20,6 @@ import 'package:flutter_marquee_plus/flutter_marquee_plus.dart';
 MarqueePlus(
   text: 'This is a very long text that scrolls smoothly',
   velocity: 100,
+  alwaysScroll: false,
   style: TextStyle(fontSize: 18),
 )
