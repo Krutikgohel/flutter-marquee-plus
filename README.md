@@ -19,7 +19,7 @@ import 'package:flutter_marquee_plus/flutter_marquee_plus.dart';
 
 MarqueePlus(
   text: 'This is a very long text that scrolls smoothly',
-  velocity: 100,
+  velocity: 50,
   alwaysScroll: false, // optional: false = only if overflow, true = always scroll
   style: TextStyle(fontSize: 18),
 )

@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.4
+- Replaced demo GIF with a newer version.
+- Updated example code in README.
+- Minor documentation improvements.
+
 ## 1.0.3
 - Replaced demo GIF with an updated version.
 - Updated README to reflect the new demo and minor documentation improvements.
