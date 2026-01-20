@@ -18,6 +18,7 @@ Supports **horizontal & vertical scrolling**, **custom animations**, and **dynam
 - 🎯 **Precise Control**: Customize velocity, acceleration, and deceleration.
 - ⏸️ **Smart Pausing**: Option to pause after each round.
 - ⚡ **Auto-Start**: Automatically scrolls only when text overflows (optional).
+- 🌪️ **Force Scroll**: Scroll text continuously even if it fits within the container.
 - 🎨 **Styling**: Full control over text style, alignment, and gaps.
 - 📏 **Cross-Axis Alignment**: Align text to Start, Center, or End.
 
@@ -78,9 +79,3 @@ MarqueePlus(
 | `decelerationDuration`| `Duration` | `Duration.zero` | Duration to slow down before stopping. |
 | `padding` | `EdgeInsetsGeometry`| `EdgeInsets.zero`| Padding around the text. |
 | `curve` | `Curve?` | `null` | Custom animation curve. |
-
----
-
-<p align="center">
-  Made with ❤️ using Flutter
-</p>
