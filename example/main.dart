@@ -82,6 +82,7 @@ class _MarqueePlusDemoState extends State<MarqueePlusDemo> {
                            velocity: _velocity,
                            gap: _gap,
                            padding: EdgeInsets.all(_padding),
+                           crossAxisAlignment: CrossAxisAlignment.center,
                            pauseAfterRound: _usePause ? const Duration(seconds: 1) : Duration.zero,
                            accelerationDuration: _useAccel ? const Duration(seconds: 1) : Duration.zero,
                            decelerationDuration: _useAccel ? const Duration(seconds: 1) : Duration.zero,

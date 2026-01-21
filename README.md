@@ -9,7 +9,45 @@ Supports **horizontal & vertical scrolling**, **custom animations**, and **dynam
 
 ---
 
-![Marquee demo](https://raw.githubusercontent.com/Krutikgohel/flutter-marquee-plus/main/assets/demo.gif)
+## 🎥 Examples
+
+### Horizontal (Short)
+![](https://raw.githubusercontent.com/Krutikgohel/flutter-marquee-plus/main/assets/horizontal_short.png)
+
+---
+
+### Horizontal (Long)
+![](https://raw.githubusercontent.com/Krutikgohel/flutter-marquee-plus/main/assets/horizontal_long.gif)
+
+---
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Vertical (Short)</h3>
+      <img src="https://raw.githubusercontent.com/Krutikgohel/flutter-marquee-plus/main/assets/vertical_short.png" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>Vertical (Long)</h3>
+      <img src="https://raw.githubusercontent.com/Krutikgohel/flutter-marquee-plus/main/assets/vertical_long.gif" />
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Force Scroll (Horizontal)</h3>
+      <img src="https://raw.githubusercontent.com/Krutikgohel/flutter-marquee-plus/main/assets/force_scroll_horizontal.gif" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>Force Scroll (Vertical)</h3>
+      <img src="https://raw.githubusercontent.com/Krutikgohel/flutter-marquee-plus/main/assets/force_scroll_verical.gif" />
+    </td>
+  </tr>
+</table>
 
 ## ✨ Features
 
