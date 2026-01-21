@@ -44,7 +44,7 @@ Supports **horizontal & vertical scrolling**, **custom animations**, and **dynam
     </td>
     <td width="50%" valign="top">
       <h3>Force Scroll (Vertical)</h3>
-      <img src="https://raw.githubusercontent.com/Krutikgohel/flutter-marquee-plus/main/assets/force_scroll_verical.gif" />
+      <img src="https://raw.githubusercontent.com/Krutikgohel/flutter-marquee-plus/main/assets/force_scroll_vertical.gif" />
     </td>
   </tr>
 </table>
