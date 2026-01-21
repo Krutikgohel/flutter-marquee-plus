@@ -3,6 +3,8 @@
 [![Pub Version](https://img.shields.io/pub/v/flutter_marquee_plus?style=flat-square&color=blue)](https://pub.dev/packages/flutter_marquee_plus)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Pub Points](https://img.shields.io/pub/points/flutter_marquee_plus?style=flat-square&color=green)](https://pub.dev/packages/flutter_marquee_plus)
+![Dart](https://img.shields.io/badge/Dart-%3E%3D2.17-blue?style=flat-square&logo=dart)
+![Flutter](https://img.shields.io/badge/Flutter-%3E%3D3.0-blue?style=flat-square&logo=flutter)
 
 A **lightweight Flutter marquee** that **auto-scrolls on overflow**, with optional **force scrolling** and **fine-grained animation control**.
 
