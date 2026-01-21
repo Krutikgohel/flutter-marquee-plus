@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 
-/// A lightweight and customizable marquee (scrolling text) widget for Flutter.
+/// A lightweight Flutter marquee that auto-scrolls on overflow, with optional force scrolling and fine-grained animation control
 ///
 /// `MarqueePlus` automatically scrolls its text when:
 ///  • the text overflows its available space, OR
@@ -13,9 +13,8 @@ import 'package:flutter/material.dart';
 /// Example:
 /// ```dart
 /// MarqueePlus(
-///   text: 'This is a very long text that scrolls smoothly',
-///   velocity: 50,
-///   forceScroll: false,
+/// text: 'Simple smooth scrolling text...',
+/// velocity: 50.0,
 /// )
 /// ```
 class MarqueePlus extends StatefulWidget {

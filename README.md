@@ -4,8 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Pub Points](https://img.shields.io/pub/points/flutter_marquee_plus?style=flat-square&color=green)](https://pub.dev/packages/flutter_marquee_plus)
 
-A **silky smooth**, **highly customizable**, and **lightweight** Marquee widget for Flutter.
-Supports **horizontal & vertical scrolling**, **custom animations**, and **dynamic pausing**.
+A **lightweight Flutter marquee** that **auto-scrolls on overflow**, with optional **force scrolling** and **fine-grained animation control**.
 
 ---
 
