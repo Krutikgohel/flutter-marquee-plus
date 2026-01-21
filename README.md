@@ -118,3 +118,36 @@ MarqueePlus(
 | `decelerationDuration`| `Duration` | `Duration.zero` | Duration to slow down before stopping. |
 | `padding` | `EdgeInsetsGeometry`| `EdgeInsets.zero`| Padding around the text. |
 | `curve` | `Curve?` | `null` | Custom animation curve. |
+
+
+## 🔄 Migration Guide (v1.x → v2.0.0)
+
+Version **2.0.0** introduces a small breaking change due to a property rename.
+
+### Property Rename
+
+The `alwaysScroll` property has been **renamed** to `forceScroll`.
+
+| Old (v1.x) | New (v2.0.0) |
+|-----------|--------------|
+| `alwaysScroll` | `forceScroll` |
+
+The behavior and functionality remain **exactly the same** — only the property name has changed.
+
+### Before (v1.x)
+
+```dart
+MarqueePlus(
+  text: 'Scrolling text',
+  alwaysScroll: true,
+)
+```
+
+### After (v2.0.0)
+
+```dart
+MarqueePlus(
+  text: 'Scrolling text',
+  forceScroll: true,
+)
+```

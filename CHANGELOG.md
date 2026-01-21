@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.0.0
+- Added **vertical marquee scrolling** support.
+- Introduced **force scroll mode** to allow continuous scrolling even when content fits the container.
+- Added **cross-axis alignment** support (start, center, end).
+- Implemented **acceleration and deceleration** for smoother and more natural scrolling animations.
+- Added **pause after each scroll cycle** for improved readability.
+- Improved **overflow detection logic** for more accurate auto-scroll behavior.
+- Refactored **internal animation and scrolling logic** for better performance and stability.
+- Updated **README documentation** with multiple feature-specific demos and examples.
+- Replaced demo visuals with **new and improved GIFs**.
+
 ## 1.0.4
 - Replaced demo GIF with a newer version.
 - Updated example code in README.
