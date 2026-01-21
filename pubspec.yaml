@@ -6,6 +6,8 @@ homepage: https://github.com/Krutikgohel/flutter-marquee-plus
 repository: https://github.com/Krutikgohel/flutter-marquee-plus
 issue_tracker: https://github.com/Krutikgohel/flutter-marquee-plus/issues
 
+icon: assets/icon/flutter_marquee_plus.png
+
 environment:
   sdk: ">=3.0.0 <4.0.0"
   flutter: ">=3.10.0"
