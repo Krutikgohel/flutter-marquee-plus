@@ -8,6 +8,17 @@ A **lightweight Flutter marquee** that **auto-scrolls on overflow**, with option
 
 ---
 
+## ✨ Features
+
+- 🌊 **Smooth Sailing**: Silky smooth scrolling animation.
+    - 📐 **Flexible Directions**: Supports both Horizontal and Vertical scrolling.
+    - 🎯 **Precise Control**: Customize velocity, acceleration, and deceleration.
+    - ⏸️ **Smart Pausing**: Option to pause after each round.
+    - ⚡ **Auto-Start**: Automatically scrolls only when text overflows (optional).
+    - 🌪️ **Force Scroll**: Scroll text continuously even if it fits within the container.
+    - 🎨 **Styling**: Full control over text style, alignment, and gaps.
+    - 📏 **Cross-Axis Alignment**: Align text to Start, Center, or End.
+
 ## 🎥 Examples
 
 ### Horizontal (Short)
@@ -47,17 +58,6 @@ A **lightweight Flutter marquee** that **auto-scrolls on overflow**, with option
     </td>
   </tr>
 </table>
-
-## ✨ Features
-
-- 🌊 **Smooth Sailing**: Silky smooth scrolling animation.
-- 📐 **Flexible Directions**: Supports both Horizontal and Vertical scrolling.
-- 🎯 **Precise Control**: Customize velocity, acceleration, and deceleration.
-- ⏸️ **Smart Pausing**: Option to pause after each round.
-- ⚡ **Auto-Start**: Automatically scrolls only when text overflows (optional).
-- 🌪️ **Force Scroll**: Scroll text continuously even if it fits within the container.
-- 🎨 **Styling**: Full control over text style, alignment, and gaps.
-- 📏 **Cross-Axis Alignment**: Align text to Start, Center, or End.
 
 ## 📦 Installation
 
